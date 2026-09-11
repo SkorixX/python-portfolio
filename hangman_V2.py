@@ -14,7 +14,7 @@ def wort_anzeigen(geheimwort, geraten):
     print(geraten)
 
 while True:
-    buchstabe = input("Gib einen Buchstaben an: ").lower()
+    buchstabe = input("Gib einen Buchstaben ein: ").lower()
     if len(buchstabe) > 1:
         print("Zu viele Zeichen.")
     else:
